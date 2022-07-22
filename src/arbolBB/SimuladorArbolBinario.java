@@ -11,7 +11,7 @@ import javax.swing.JPanel;
  */
 public class SimuladorArbolBinario {
 
-    ArbolBB miArbol = new ArbolBB();
+    ManejadorArbol miArbol = new ManejadorArbol();
     boolean siEsta;
 
     public SimuladorArbolBinario() {

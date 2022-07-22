@@ -14,13 +14,13 @@ import javax.swing.JPanel;
  * @author Toloza XD
  */
 
-public class ArbolBB {
+public class ManejadorArbol {
 
     private Nodo raiz;
     int num_nodos;
     int alt;
 
-    public ArbolBB() {
+    public ManejadorArbol() {
         raiz = null;
     }
     
