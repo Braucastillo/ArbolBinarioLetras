@@ -1,8 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package arbolBB;
+package ArbolBinarioLetras;
 
 
 import java.awt.BorderLayout;
@@ -14,31 +10,18 @@ import javax.swing.JInternalFrame;
 import javax.swing.JLayeredPane;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Toloza XD
- */
+
 public class Vistaa extends javax.swing.JFrame {
 
     private SimuladorArbolBinario simulador = new SimuladorArbolBinario();
     public static ArrayList<String> listaLetras = new ArrayList<String>();
     boolean datoEnArbor;
 
-    /**
-     * Creates new form Vista
-     */
+  
     public Vistaa() {
         initComponents();
-//        this.inicializar(false);
-
-
     }
 
-//    private void inicializar(boolean enable) {
-//        this.InOrden.setEnabled(enable);
-//        this.PostOrden.setEnabled(enable);
-//        this.PreOrden.setEnabled(enable);
-//    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -146,7 +129,7 @@ public class Vistaa extends javax.swing.JFrame {
     private void botonInsertarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonInsertarActionPerformed
         try {
             String dato = txtdato.getText().toUpperCase();
-            //int Dato = Integer.parseInt(dato); 
+     
             CargarListaLetras(dato);
     
              simulador.buscar(dato);

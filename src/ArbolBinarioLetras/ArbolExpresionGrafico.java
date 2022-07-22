@@ -1,10 +1,5 @@
 
-package arbolBB;
-
-  /**
- *
- * @author Toloza XD
- */
+package ArbolBinarioLetras;
 
 import java.awt.*;
 import java.util.*;

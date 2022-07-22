@@ -3,12 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package arbolBB;
+package ArbolBinarioLetras;
 
-/**
- *
- * @author Toloza XD
- */
+
 public class Nodo {
     private String dato;
     private Nodo izq,der;
